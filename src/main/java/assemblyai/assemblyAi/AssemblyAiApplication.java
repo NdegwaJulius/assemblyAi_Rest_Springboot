@@ -33,7 +33,7 @@ public class AssemblyAiApplication {
 		 //Uncomment the following lines once you're ready to use them
 		 HttpRequest postRequest = HttpRequest.newBuilder()
 		        .uri(new URI("https://api.assemblyai.com/v2/transcript"))
-		         .header("Authorization","2ee54ed06f9247a9af762c9f256aa4ff")
+		         .header("Authorization","YOURAPIKEY")
 		         .POST(HttpRequest.BodyPublishers.ofString(jsonRequest))
 				 .build();
 
