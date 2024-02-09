@@ -30,7 +30,7 @@ public class AssemblyAiApplication {
 		String jsonRequest = gson.toJson(transcript);
 		System.out.println(jsonRequest);
 
-		 //Uncomment the following lines once you're ready to use them
+
 		 HttpRequest postRequest = HttpRequest.newBuilder()
 		        .uri(new URI("https://api.assemblyai.com/v2/transcript"))
 		         .header("Authorization","YOURAPIKEY")
